@@ -21,7 +21,9 @@ sleep 1
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{
-  "URLBlocklist": [],
+  "URLBlocklist": [
+  "LOLBeans.io",
+],
   "SystemFeaturesDisableList": [],
   "EditBookmarksEnabled": true,
   "ChromeOsMultiProfileUserBehavior": "unrestricted",
